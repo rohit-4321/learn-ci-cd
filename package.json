@@ -4,6 +4,7 @@
   "description": "trying git hub actions",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/server.ts",
     "lint": "eslint src --ext .ts,.js",
     "lint:fix": "eslint src --ext .ts,.js --fix",
