@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: learn-ci-cd:2.0
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/learnDocker/app'
+      - '/learnDocker/app/node_modules'
+    command: npm run start:dev

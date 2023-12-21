@@ -8,5 +8,3 @@ COPY src ./src
 RUN npm install -g ts-node
 
 RUN npm install
-
-CMD ["npm", "start"]
